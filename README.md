@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CarMall - Next.js Car Marketplace
 
-## Getting Started
+Welcome to **CarMall**, an online platform where users can explore and purchase a variety of vehicles. This car marketplace application leverages **Next.js** for server-side rendering, ensuring fast load times and a responsive browsing experience. The platform includes user and admin sections, making it easy for users to shop and for admins to manage listings.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Car Listings**: View detailed information on various cars, including make, model, year, specifications, and price.
+- **Search and Filter**: Search by keywords or filter listings by brand, price, type, and more.
+- **User Accounts**: User registration and login with secure authentication.
+- **Favorites**: Users can save cars to their favorites list for easy access later.
+- **Admin Dashboard**: Manage listings, edit car details, and view analytics.
+- **Responsive Design**: Fully responsive design, ensuring a seamless experience across devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js for a fast, server-rendered experience.
+- **State Management**: React Context API for lightweight state management across components.
+- **UI Components**: Styled Components and Tailwind CSS for custom styles.
+- **API Communication**: Axios for handling HTTP requests.
+- **Database**: MongoDB for data persistence (via external API).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Setup
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ensure you have the following installed on your local environment:
+- **Node.js and npm**: To manage dependencies and run the project.
+- **MongoDB**: For data storage (or connect to a cloud MongoDB instance).
